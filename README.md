@@ -16,6 +16,9 @@ This project was built to inspire climate-conscious retail innovation through in
 ### 🔹 Landing Page  
 ![Landing Page](screenshots/landing.png)
 
+### 🔹 Home Page  
+![Home Page](screenshots/home.png)
+
 ### 🔹 Cart Page  
 ![Cart Page](screenshots/cart.png)
 
