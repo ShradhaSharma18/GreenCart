@@ -1,0 +1,144 @@
+.landing-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #ecfdf5, #ffffff);
+  min-height: 100vh;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  color: #065f46;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main-btn {
+  padding: 0.8rem 1.4rem;
+  background-color: #34d399;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-btn:hover {
+  background-color: #10b981;
+}
+
+.secondary-btn {
+  padding: 0.8rem 1.4rem;
+  background-color: #facc15;
+  color: #1f2937;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background-color: #fde68a;
+}
+
+/* .features-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+.feature-box {
+  width: 240px;
+  background-color: #ffffff;
+  border-left: 6px solid #22c55e;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(34, 197, 94, 0.1);
+}
+
+.feature-box h3 {
+  font-size: 1.2rem;
+  color: #065f46;
+  margin-bottom: 0.5rem;
+}
+
+.feature-box p {
+  font-size: 0.95rem;
+  color: #4b5563;
+} */
+
+.features-section {
+  padding: 3rem 1rem;
+  background-color: #f0fdf4;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #065f46;
+  font-weight: 600;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.feature-box {
+  background-color: #ffffff;
+  padding: 1.8rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.1);
+  transition: transform 0.2s ease;
+  text-align: left;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.feature-box h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+  color: #047857;
+}
+
+.feature-box p {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.5;
+}
+
+

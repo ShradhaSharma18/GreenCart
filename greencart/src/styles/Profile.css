@@ -1,0 +1,29 @@
+/* src/styles/Profile.css */
+.profile-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 30px;
+  background: #f4fdf8;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-container h2 {
+  margin-bottom: 20px;
+  color: #2f6e4e;
+}
+
+.profile-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #cce3d5;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: left;
+}
+
+.profile-card p {
+  margin-bottom: 12px;
+}

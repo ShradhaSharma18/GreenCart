@@ -1,0 +1,12 @@
+# Node.js backend
+greencart-backend/node_modules/
+greencart-backend/.env
+
+# React frontend
+greencart-frontend/node_modules/
+greencart-frontend/.env
+dist/
+
+# OS/System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,63 @@
+.orders-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.order-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f0fdf4;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-card ul {
+  padding-left: 1.2rem;
+}
+
+.order-actions {
+  margin-top: 1rem;
+}
+
+.order-actions button {
+  margin-right: 1rem;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.repeat-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.repeat-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.donate-btn {
+  margin-left: 10px;
+  background-color: #22c55e;
+  border: none;
+  padding: 4px 8px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s ease;
+}
+
+.donate-btn:hover {
+  background-color: #16a34a;
+}
+
+.donated-label {
+  margin-left: 10px;
+  color: #10b981;
+  font-weight: bold;
+}
